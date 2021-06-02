@@ -127,6 +127,8 @@ class Plot(object):
 
         plt.show()
 
+        return fig
+
     def _get_plotter(self):  # pragma: no cover
         """As some environments do not have matplotlib then we import the library through
         this method which prevents import exceptions.
