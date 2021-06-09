@@ -15,7 +15,7 @@ Please refer to <a href=http://nbviewer.jupyter.org/github/dafiti/causalimpact/b
 
 ## Installation
 
-    pip install pycausalimpact
+    pip install -e git+https://github.com/khuyentran1401/causalimpact.git#egg=pycausalimpact
 
 ## Requirements
 
