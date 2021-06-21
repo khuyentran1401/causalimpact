@@ -125,7 +125,7 @@ class Plot(object):
                     'diffuse initialization.'.format(llb))
             fig.text(0.1, 0.01, text, fontsize='large')
 
-        plt.show()
+        plt.show(block=False)
 
         return fig
 
@@ -133,7 +133,7 @@ class Plot(object):
         """As some environments do not have matplotlib then we import the library through
         this method which prevents import exceptions.
 
-        Returns
+        Returns`
         -------
           plotter: `matplotlib.pyplot`.
         """
